@@ -1,9 +1,13 @@
-# Test GCP datastore
+# Node - GCP datastore
+
+Test the GCP Datastore with node. It is now called «Firestore in Datastore mode».  
+It is straightforward to use but the access to auto generated id is weird.
 
 ## Docs
 
-- https://cloud.google.com/datastore/docs/how-to
-- https://cloud.google.com/nodejs/docs/reference/datastore/latest
+- quickstart and code snippets: https://cloud.google.com/datastore/docs/how-to
+- the reference: https://cloud.google.com/nodejs/docs/reference/datastore/latest
+- a good comparison of the Native vs Datastore modes on SO: https://stackoverflow.com/questions/51805687/does-firestore-in-datastore-mode-have-any-advantages-native-mode
 
 ## Run locally
 
