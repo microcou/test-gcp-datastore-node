@@ -14,13 +14,13 @@ It is straightforward to use but the access to auto generated id is weird.
 Start the datastore emulator:
 
 ```
-$ gcloud beta emulators datastore start --data-dir .
+gcloud beta emulators datastore start --data-dir .
 ```
 
 Set the env variables needed to connect to the emulator:
 
 ```
-$ gcloud beta emulators datastore env-init --data-dir .
+gcloud beta emulators datastore env-init --data-dir .
 # Then copy/paste to set the env variables
 ```
 
@@ -33,5 +33,5 @@ npm run bw
 Start the server:
 
 ```
-$ npm run s
+npm run s
 ```
