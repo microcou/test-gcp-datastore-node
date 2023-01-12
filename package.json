@@ -1,0 +1,20 @@
+{
+	"name": "test-datastore",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"bw": "tsc --sourceMap --watch",
+		"s": "node dist/index.js",
+		"sd": "node --inspect-brk dist/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"typescript": "^4.9.4"
+	},
+	"dependencies": {
+		"@google-cloud/datastore": "^7.0.0"
+	}
+}
